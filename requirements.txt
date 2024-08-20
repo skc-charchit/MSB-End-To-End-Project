@@ -1,0 +1,10 @@
+pandas==2.2.2
+notebook
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+joblib
+Flask
+-e .
