@@ -79,8 +79,11 @@ Open the Jupyter notebooks in the notebooks/ directory to perform exploratory da
 jupyter notebook notebooks/eda.ipynb
 # Modeling and Evaluation
 Run the modeling script to train and evaluate the machine learning models:
+python scripts/modeling.py
 
-python scripts/train_model.py
+## Conclusion:
+
+The Logistic Regression model performed well on the test set, achieving an AUC ROC score of 0.9722. The confusion matrix shows that the model made very few errors, with most of the predictions being correct. The ROC curve visualization further confirms the model's performance, as it closely follows the diagonal line, indicating a good classification ability.
 
 # Interactive Dashboard
 To explore the interactive dashboard, use a BI tool like Power BI or Tableau and connect it to the processed data. The dashboard will help you visualize the mortgage portfolio, bids, and analysis results.

@@ -9,4 +9,5 @@ scipy
 joblib
 memory-profiler
 Flask
+SMOTE
 -e .
