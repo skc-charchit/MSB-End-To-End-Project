@@ -1,6 +1,5 @@
 ## Mortgage Backed Securities(MBS) End To End Machine Learning Project
 
-## Prepayment-Mortgage-Trading-Analysis-and-Prediction
 
 Welcome to the Mortgage Trading Analysis and Prediction project! This repository contains the code and resources for a comprehensive case study on mortgage trading, designed to help you understand the financial system, sharpen your data modeling, DAX, and financial analysis skills, and experience the dynamic environment of a mortgage trading desk.
 
@@ -18,8 +17,11 @@ This project aims to provide a unique perspective on the banking industry and im
 The repository is organized as follows:
 
 data/: Contains the dataset used for analysis and prediction.
+
 notebooks/: Jupyter notebooks with step-by-step analysis, data preprocessing, modeling, and evaluation.
+
 reports/: Generated reports and visualizations.
+
 README.md: This readme file.
 
 ## Dataset
@@ -28,22 +30,31 @@ The dataset used in this project is a synthetic mortgage dataset. It includes in
 # Dataset Information:
 
 loan_id: Unique identifier for each loan
+
 origination_date: Date when the loan was originated
+
 loan_amount: Amount of the loan
+
 interest_rate: Interest rate of the loan
+
 credit_score: Borrower's credit score at the time of origination
+
 loan_to_value: Loan-to-value ratio at the time of origination
+
 remaining_term: Remaining term of the loan in months
+
 monthly_payment: Monthly payment amount
+
 default: Indicator of whether the loan has defaulted (binary: 0 for no default, 1 for default)
+
 bid_price: Price bid by prospective buyers (for simulation purposes)
 
 ## Installation
 To run the project locally, follow these steps:
 
 # 1.Clone the repository:
-
 git clone https://github.com/skc-charchit/MSB-End-To-End-Project.git
+
 cd Mortgage-Backed-Securities(MBS)
 
 # 2.Create and activate a virtual environment:
@@ -55,10 +66,13 @@ python3 -m venv venv
 pip install -r requirements.txt
 
 ## Usage
+
+This project is designed to be run in a Jupyter notebook environment.
 # Data Preprocessing
 Run the preprocessing script to clean and prepare the data:
 
 python scripts/preprocess_data.py
+
 # Exploratory Data Analysis (EDA)
 Open the Jupyter notebooks in the notebooks/ directory to perform exploratory data analysis:
 
@@ -67,6 +81,7 @@ jupyter notebook notebooks/eda.ipynb
 Run the modeling script to train and evaluate the machine learning models:
 
 python scripts/train_model.py
+
 # Interactive Dashboard
 To explore the interactive dashboard, use a BI tool like Power BI or Tableau and connect it to the processed data. The dashboard will help you visualize the mortgage portfolio, bids, and analysis results.
 
@@ -75,3 +90,7 @@ Generate reports and visualizations using the notebooks and scripts provided. Th
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
