@@ -1,10 +1,12 @@
-pandas==2.2.2
-notebook
+pandas
 numpy
 scikit-learn
+xgboost
+optuna
 matplotlib
 seaborn
 scipy
 joblib
+memory-profiler
 Flask
--e .
+# -e .
