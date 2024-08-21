@@ -9,4 +9,4 @@ scipy
 joblib
 memory-profiler
 Flask
-# -e .
+-e .
